@@ -1,0 +1,65 @@
+2025-05-02 10:05:58,126 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:05:58,142 - INFO - Conexión a BD exitosa
+2025-05-02 10:05:58,159 - INFO - Tabla de sincronizaciones verificada/creada
+2025-05-02 10:05:58,160 - INFO - Conexión a BD cerrada correctamente
+2025-05-02 10:05:58,162 - INFO - Jobs programados para las horas: 09:00, 13:00, 14:30, 19:00, 00:00
+2025-05-02 10:05:58,163 - INFO - Scheduler de sincronización iniciado
+2025-05-02 10:05:58,288 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:05:58,307 - INFO - Conexión a BD exitosa
+2025-05-02 10:05:58,310 - INFO - Conexión a BD cerrada correctamente
+2025-05-02 10:05:58,311 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:05:58,324 - INFO - Conexión a BD exitosa
+2025-05-02 10:05:58,330 - INFO - Conexión a BD cerrada correctamente
+2025-05-02 10:05:58,331 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:05:58,353 - INFO - Conexión a BD exitosa
+2025-05-02 10:05:58,357 - INFO - Conexión a BD cerrada correctamente
+2025-05-02 10:05:58,358 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-02 10:05:58,359 - INFO - Interfaz gráfica iniciada
+2025-05-02 10:06:02,996 - INFO - Iniciando sincronización manual desde la interfaz
+2025-05-02 10:06:02,998 - INFO - Iniciando proceso de extracción de datos
+2025-05-02 10:06:02,999 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:06:03,018 - INFO - Conexión a BD exitosa
+2025-05-02 10:06:03,019 - INFO - Procesando equipo LPZ (192.168.100.253)
+2025-05-02 10:06:03,019 - INFO - Intentando conectar al equipo biométrico en 192.168.100.253
+2025-05-02 10:06:03,409 - INFO - Conexión exitosa al equipo biométrico en 192.168.100.253
+2025-05-02 10:06:03,821 - INFO - Obtenidos 322 registros del equipo LPZ
+2025-05-02 10:06:03,988 - INFO - Actualizada última sincronización para equipo LPZ
+2025-05-02 10:06:03,988 - INFO - Resumen equipo LPZ:
+Registros insertados: 0
+Registros duplicados: 322
+Errores: 0
+Detalle de registros insertados: []
+2025-05-02 10:06:04,059 - INFO - Conexión cerrada correctamente para el equipo en 192.168.100.253
+2025-05-02 10:06:04,059 - INFO - Procesando equipo SC (192.168.120.254)
+2025-05-02 10:06:04,060 - INFO - Intentando conectar al equipo biométrico en 192.168.120.254
+2025-05-02 10:06:04,317 - INFO - Conexión exitosa al equipo biométrico en 192.168.120.254
+2025-05-02 10:06:04,863 - INFO - Obtenidos 712 registros del equipo SC
+2025-05-02 10:06:05,117 - INFO - Actualizada última sincronización para equipo SC
+2025-05-02 10:06:05,118 - INFO - Resumen equipo SC:
+Registros insertados: 0
+Registros duplicados: 712
+Errores: 0
+Detalle de registros insertados: []
+2025-05-02 10:06:05,210 - INFO - Conexión cerrada correctamente para el equipo en 192.168.120.254
+2025-05-02 10:06:05,211 - INFO - Procesando equipo CBBA (192.168.110.248)
+2025-05-02 10:06:05,211 - INFO - Intentando conectar al equipo biométrico en 192.168.110.248
+2025-05-02 10:06:05,410 - INFO - Conexión exitosa al equipo biométrico en 192.168.110.248
+2025-05-02 10:06:07,315 - INFO - Obtenidos 5007 registros del equipo CBBA
+2025-05-02 10:06:08,013 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:06:08,030 - INFO - Conexión a BD exitosa
+2025-05-02 10:06:08,032 - INFO - Conexión a BD cerrada correctamente
+2025-05-02 10:06:08,033 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:06:08,035 - INFO - Conexión a BD exitosa
+2025-05-02 10:06:08,037 - INFO - Conexión a BD cerrada correctamente
+2025-05-02 10:06:08,038 - INFO - Intentando conectar a la base de datos
+2025-05-02 10:06:08,045 - INFO - Conexión a BD exitosa
+2025-05-02 10:06:08,049 - INFO - Conexión a BD cerrada correctamente
+2025-05-02 10:06:08,051 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-02 10:06:09,509 - INFO - Actualizada última sincronización para equipo CBBA
+2025-05-02 10:06:09,509 - INFO - Resumen equipo CBBA:
+Registros insertados: 0
+Registros duplicados: 5007
+Errores: 0
+Detalle de registros insertados: []
+2025-05-02 10:06:09,561 - INFO - Conexión cerrada correctamente para el equipo en 192.168.110.248
+2025-05-02 10:06:09,562 - INFO - Conexión a BD cerrada correctamente
