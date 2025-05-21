@@ -109,9 +109,9 @@ def ajustar_minutos(user_id, hora):
         if hora < time(9, 10):
             minutos = hora.minute
             if time(8, 35) <= hora < time(8, 40):
-                minutos -= int(minutos * 0.10)
+                minutos -= int(minutos * 0.12)
             elif time(8, 40) <= hora < time(8, 45):
-                minutos -= int(minutos * 0.15)
+                minutos -= int(minutos * 0.17)
             elif hora >= time(8, 45):
                 minutos -= int(minutos * 0.25)
             minutos = max(minutos, 0)
@@ -126,7 +126,7 @@ def verificar_duplicado(cursor, id_equipo, user_id, fecha, hora):
     try:
         cursor.execute(
             """
-            SELECT COUNT(*) as count FROM asistencias 
+            SELECT COUNT(*) as count FROM rh_asistencias 
             WHERE id_equipo = %s AND user_id = %s AND fecha = %s AND hora = %s
             """,
             (id_equipo, user_id, fecha, hora)
@@ -196,7 +196,7 @@ def extraer_datos():
 
                             cursor.execute(
                                 """
-                                INSERT INTO asistencias (id_equipo, user_id, fecha, hora, created_at, updated_at)
+                                INSERT INTO rh_asistencias (id_equipo, user_id, fecha, hora, created_at, updated_at)
                                 VALUES (%s, %s, %s, %s, NOW(), NOW())
                                 """,
                                 (id_equipo, user_id, fecha, hora)
