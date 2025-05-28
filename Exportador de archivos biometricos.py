@@ -5,10 +5,10 @@ from datetime import datetime
 
 # Configuración de la conexión a la base de datos
 DB_CONFIG = {
-    'host': 'localhost',
+    'host': '10.0.0.7',
     'user': 'root',
-    'password': '',
-    'database': 'sia'
+    'password': 'S1st3m4s.',
+    'database': 'SIA'
 }
 
 # Ruta del archivo Excel
@@ -74,7 +74,7 @@ def main():
         # Insertar datos en la base de datos
         if not df_to_insert.empty:
             df_to_insert.to_sql(
-                name='asistencias',
+                name='rh_asistencias',
                 con=engine,
                 if_exists='append',
                 index=False,

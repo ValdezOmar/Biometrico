@@ -1,0 +1,169 @@
+2025-05-28 14:37:32,951 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:33,076 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:33,195 - INFO - Tabla de rh_sincronizaciones verificada/creada
+2025-05-28 14:37:33,195 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:33,197 - INFO - Jobs programados para las horas: 09:00, 13:00, 14:30, 19:00, 00:00
+2025-05-28 14:37:33,197 - INFO - Scheduler de sincronización iniciado
+2025-05-28 14:37:33,233 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:33,293 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:33,298 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:33,298 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:33,584 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:33,588 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:33,588 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:33,601 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:33,605 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:33,605 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:33,605 - INFO - Interfaz gráfica iniciada
+2025-05-28 14:37:36,728 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:36,810 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:36,814 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:36,815 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:36,833 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:36,836 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:36,837 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:36,849 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:36,854 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:36,854 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:38,416 - INFO - Iniciando sincronización manual desde la interfaz
+2025-05-28 14:37:38,417 - INFO - Iniciando proceso de extracción de datos
+2025-05-28 14:37:38,418 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:38,444 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:38,445 - INFO - Procesando equipo LPZ (192.168.100.253)
+2025-05-28 14:37:38,445 - INFO - Intentando conectar al equipo biométrico en 192.168.100.253
+2025-05-28 14:37:39,212 - INFO - Conexión exitosa al equipo biométrico en 192.168.100.253
+2025-05-28 14:37:39,818 - INFO - Obtenidos 1801 registros del equipo LPZ
+2025-05-28 14:37:43,427 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:43,450 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:43,455 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:43,455 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:43,484 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:43,489 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:43,489 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:43,513 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:43,516 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:43,517 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:44,031 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:44,054 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:44,056 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:44,056 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:44,068 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:44,070 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:44,070 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:44,100 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:44,102 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:44,103 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:45,149 - INFO - Actualizada última sincronización para equipo LPZ
+2025-05-28 14:37:45,149 - INFO - Resumen equipo LPZ:
+Registros insertados: 1
+Registros duplicados: 1800
+Errores: 0
+Detalle de registros insertados: [
+  {
+    "user_id": "4886851",
+    "fecha": "2025-05-28",
+    "hora_ajustada": "14:35:35",
+    "equipo": "LPZ"
+  }
+]
+2025-05-28 14:37:45,210 - INFO - Conexión cerrada correctamente para el equipo en 192.168.100.253
+2025-05-28 14:37:45,210 - INFO - Procesando equipo SC (192.168.120.254)
+2025-05-28 14:37:45,210 - INFO - Intentando conectar al equipo biométrico en 192.168.120.254
+2025-05-28 14:37:45,963 - INFO - Conexión exitosa al equipo biométrico en 192.168.120.254
+2025-05-28 14:37:46,620 - INFO - Obtenidos 1061 registros del equipo SC
+2025-05-28 14:37:47,247 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:47,270 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:47,273 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:47,274 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:47,285 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:47,288 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:47,288 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:47,300 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:47,302 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:47,303 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:48,710 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:48,734 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:48,737 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:48,737 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:48,750 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:48,753 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:48,753 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:48,766 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:48,769 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:48,769 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:49,656 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:49,657 - INFO - Actualizada última sincronización para equipo SC
+2025-05-28 14:37:49,657 - INFO - Resumen equipo SC:
+Registros insertados: 0
+Registros duplicados: 1061
+Errores: 0
+Detalle de registros insertados: []
+2025-05-28 14:37:49,674 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:49,679 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:49,679 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:49,707 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:49,711 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:49,711 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:49,723 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:49,726 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:49,726 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:49,746 - INFO - Conexión cerrada correctamente para el equipo en 192.168.120.254
+2025-05-28 14:37:49,746 - INFO - Procesando equipo CBBA (192.168.110.248)
+2025-05-28 14:37:49,746 - INFO - Intentando conectar al equipo biométrico en 192.168.110.248
+2025-05-28 14:37:50,419 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:50,420 - INFO - Conexión exitosa al equipo biométrico en 192.168.110.248
+2025-05-28 14:37:50,434 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:50,440 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:50,441 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:50,458 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:50,462 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:50,464 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:50,488 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:50,491 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:50,491 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:51,167 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:51,181 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:51,184 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:51,184 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:51,209 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:51,212 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:51,213 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:51,341 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:51,345 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:51,345 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:51,784 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:51,800 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:51,804 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:51,804 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:51,816 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:51,821 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:51,821 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:51,835 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:51,839 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:51,839 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:37:52,605 - INFO - Obtenidos 5692 registros del equipo CBBA
+2025-05-28 14:37:52,606 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:52,617 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:52,619 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:52,620 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:52,631 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:52,633 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:52,633 - INFO - Intentando conectar a la base de datos
+2025-05-28 14:37:52,644 - INFO - Conexión a BD exitosa
+2025-05-28 14:37:52,647 - INFO - Conexión a BD cerrada correctamente
+2025-05-28 14:37:52,647 - INFO - Lista de equipos actualizada en la interfaz
+2025-05-28 14:38:10,967 - INFO - Actualizada última sincronización para equipo CBBA
+2025-05-28 14:38:10,967 - INFO - Resumen equipo CBBA:
+Registros insertados: 1
+Registros duplicados: 5691
+Errores: 0
+Detalle de registros insertados: [
+  {
+    "user_id": "5190764",
+    "fecha": "2025-05-28",
+    "hora_ajustada": "14:30:24",
+    "equipo": "CBBA"
+  }
+]
+2025-05-28 14:38:11,014 - INFO - Conexión cerrada correctamente para el equipo en 192.168.110.248
+2025-05-28 14:38:11,014 - INFO - Conexión a BD cerrada correctamente
