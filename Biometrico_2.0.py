@@ -19,9 +19,9 @@ CONFIG_FILE = 'equipos.json'
 LOG_FILE = 'biometric_sync.log'
 
 DB_CONFIG = {
-    'host': '10.0.0.7',
+    'host': 'localhost',
     'user': 'root',
-    'password': 'S1st3m4s.',
+    'password': '',
     'database': 'SIA',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor,
@@ -62,7 +62,7 @@ def guardar_equipos(equipos):
 # --- CONEXIONES ---
 @contextmanager
 def conectar_biometrico(ip):
-    zk = ZK(ip, port=4370, timeout=10)
+    zk = ZK(ip, port=4370, timeout=20)
     conn = None
     try:
         logger.info(f"Intentando conectar al equipo biométrico en {ip}")
@@ -114,7 +114,7 @@ def ajustar_minutos(user_id, hora):
             elif time(8, 40) <= hora < time(8, 45):
                 minutos -= int(minutos * 0.17)
             elif hora >= time(8, 45):
-                minutos -= int(minutos * 0.25)
+                minutos -= int(minutos * 0.20)
             minutos = max(minutos, 0)
             return time(hora.hour, minutos, hora.second)
 
@@ -205,17 +205,18 @@ def extraer_datos():
 
                             cursor.execute(
                                 """
-                                INSERT INTO rh_asistencias (id_equipo, user_id, fecha, hora, created_at, updated_at)
-                                VALUES (%s, %s, %s, %s, NOW(), NOW())
+                                INSERT INTO rh_asistencias (id_equipo, user_id, fecha, hora, visible, created_at, updated_at)
+                                VALUES (%s, %s, %s, %s, %s, NOW(), NOW())
                                 """,
-                                (id_equipo, user_id, fecha, hora)
+                                (id_equipo, user_id, fecha, hora, True)
                             )
                             registros_insertados.append({
                                 'user_id': user_id,
                                 'fecha': str(fecha),
                                 #'hora_original': str(hora_original),
                                 'hora_ajustada': str(hora),
-                                'equipo': id_equipo
+                                'equipo': id_equipo,
+                                'visible': True 
                             })
                         except Exception as e:
                             errores += 1
