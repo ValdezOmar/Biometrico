@@ -19,9 +19,9 @@ CONFIG_FILE = 'equipos.json'
 LOG_FILE = 'biometric_sync.log'
 
 DB_CONFIG = {
-    'host': 'localhost',
+    'host': '10.0.0.7',
     'user': 'root',
-    'password': '',
+    'password': 'S1st3m4s.',
     'database': 'SIA',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor,
@@ -206,9 +206,9 @@ def extraer_datos():
                             cursor.execute(
                                 """
                                 INSERT INTO rh_asistencias (id_equipo, user_id, fecha, hora, visible, created_at, updated_at)
-                                VALUES (%s, %s, %s, %s, %s, NOW(), NOW())
+                                VALUES (%s, %s, %s, %s, 1, NOW(), NOW())
                                 """,
-                                (id_equipo, user_id, fecha, hora, True)
+                                (id_equipo, user_id, fecha, hora)
                             )
                             registros_insertados.append({
                                 'user_id': user_id,
