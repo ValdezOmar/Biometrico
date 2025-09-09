@@ -1,0 +1,7 @@
+{
+  "host": "10.0.0.7",
+  "user": "root",
+  "password": "S1st3m4s.",
+  "database": "SIA",
+  "charset": "utf8mb4"
+}

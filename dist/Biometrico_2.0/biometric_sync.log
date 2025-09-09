@@ -1,0 +1,5 @@
+2025-09-05 16:22:14,392 - INFO - Intentando conectar a la base de datos
+2025-09-05 16:22:14,449 - INFO - Conexión a BD exitosa
+2025-09-05 16:22:14,460 - INFO - Conexión a BD cerrada correctamente
+2025-09-05 16:22:14,997 - WARNING - Archivo de configuración equipos.json no encontrado
+2025-09-05 16:22:14,997 - INFO - Lista de equipos actualizada en la interfaz
