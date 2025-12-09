@@ -47,3 +47,36 @@ Detalle de registros insertados: []
 2025-09-05 16:44:50,552 - INFO - Lista de equipos actualizada en la interfaz
 2025-09-05 16:44:53,929 - INFO - db_config guardado correctamente
 2025-09-05 16:44:56,814 - INFO - db_config actualizado desde interfaz: {'host': '10.0.0.7', 'user': 'root', 'password': 'S1st3m4s.', 'database': 'SIA', 'charset': 'utf8mb4', 'cursorclass': <class 'pymysql.cursors.DictCursor'>, 'autocommit': True}
+2025-12-09 15:47:17,173 - INFO - Configuración cargada desde db_config.json
+2025-12-09 15:47:17,175 - INFO - Archivo sync_config.json no encontrado. Creando con configuración por defecto.
+2025-12-09 15:47:17,176 - INFO - Intentando conectar a la base de datos
+2025-12-09 15:47:17,261 - INFO - Conexión a BD exitosa
+2025-12-09 15:47:17,333 - INFO - Tablas de base de datos verificadas/creadas
+2025-12-09 15:47:17,333 - INFO - Conexión a BD cerrada correctamente
+2025-12-09 15:47:17,335 - INFO - Programada sincronización a las 08:00
+2025-12-09 15:47:17,335 - INFO - Programada sincronización a las 09:00
+2025-12-09 15:47:17,684 - INFO - Programada sincronización a las 10:00
+2025-12-09 15:47:17,685 - INFO - Programada sincronización a las 11:00
+2025-12-09 15:47:17,685 - INFO - Programada sincronización a las 12:00
+2025-12-09 15:47:17,685 - INFO - Programada sincronización a las 13:00
+2025-12-09 15:47:17,685 - INFO - Programada sincronización a las 14:00
+2025-12-09 15:47:17,685 - INFO - Programada sincronización a las 14:35
+2025-12-09 15:47:17,686 - INFO - Programada sincronización a las 15:00
+2025-12-09 15:47:17,686 - INFO - Programada sincronización a las 16:00
+2025-12-09 15:47:17,686 - INFO - Programada sincronización a las 17:00
+2025-12-09 15:47:17,686 - INFO - Programada sincronización a las 18:00
+2025-12-09 15:47:17,686 - INFO - Programada sincronización a las 19:00
+2025-12-09 15:47:17,686 - INFO - Programada sincronización a las 20:00
+2025-12-09 15:47:17,687 - INFO - Programada sincronización a las 21:00
+2025-12-09 15:47:17,687 - INFO - Programada sincronización a las 22:00
+2025-12-09 15:47:17,687 - INFO - Programada sincronización a las 23:00
+2025-12-09 15:47:17,687 - INFO - Programada sincronización a las 00:00
+2025-12-09 15:47:18,361 - INFO - Configuración cargada desde equipos.json
+2025-12-09 15:47:18,362 - INFO - Intentando conectar a la base de datos
+2025-12-09 15:47:18,386 - INFO - Conexión a BD exitosa
+2025-12-09 15:47:18,390 - INFO - Conexión a BD cerrada correctamente
+2025-12-09 15:47:52,410 - INFO - Aplicación configurada para iniciar con Windows
+2025-12-09 15:47:52,411 - INFO - Configuración guardada en sync_config.json
+2025-12-09 15:47:55,466 - INFO - Aplicación removida del inicio de Windows
+2025-12-09 15:47:55,466 - INFO - Configuración guardada en sync_config.json
+2025-12-09 15:48:12,587 - INFO - Aplicación cerrada por el usuario

@@ -3,3 +3,13 @@
 2025-09-05 16:22:14,460 - INFO - Conexión a BD cerrada correctamente
 2025-09-05 16:22:14,997 - WARNING - Archivo de configuración equipos.json no encontrado
 2025-09-05 16:22:14,997 - INFO - Lista de equipos actualizada en la interfaz
+2025-12-09 15:00:49,410 - INFO - Intentando conectar a la base de datos
+2025-12-09 15:00:49,475 - INFO - Conexión a BD exitosa
+2025-12-09 15:00:49,671 - INFO - Conexión a BD cerrada correctamente
+2025-12-09 15:00:50,066 - WARNING - Archivo de configuración equipos.json no encontrado
+2025-12-09 15:00:50,066 - INFO - Lista de equipos actualizada en la interfaz
+2025-12-09 15:01:44,501 - INFO - Intentando conectar a la base de datos
+2025-12-09 15:01:44,531 - INFO - Conexión a BD exitosa
+2025-12-09 15:01:44,554 - INFO - Conexión a BD cerrada correctamente
+2025-12-09 15:01:44,618 - WARNING - Archivo de configuración equipos.json no encontrado
+2025-12-09 15:01:44,618 - INFO - Lista de equipos actualizada en la interfaz

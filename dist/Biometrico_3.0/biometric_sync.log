@@ -1,0 +1,38 @@
+2025-12-09 16:05:57,824 - INFO - Archivo db_config.json no encontrado. Creando con configuración por defecto.
+2025-12-09 16:05:57,825 - ERROR - Error cargando db_config.json: Object of type type is not JSON serializable
+Traceback (most recent call last):
+  File "Biometrico_3.0.py", line 77, in cargar_config_archivo
+  File "json\__init__.py", line 179, in dump
+  File "json\encoder.py", line 432, in _iterencode
+  File "json\encoder.py", line 406, in _iterencode_dict
+  File "json\encoder.py", line 439, in _iterencode
+  File "json\encoder.py", line 180, in default
+TypeError: Object of type type is not JSON serializable
+2025-12-09 16:05:57,825 - INFO - Archivo sync_config.json no encontrado. Creando con configuración por defecto.
+2025-12-09 16:05:57,826 - INFO - Intentando conectar a la base de datos
+2025-12-09 16:05:57,864 - INFO - Conexión a BD exitosa
+2025-12-09 16:05:57,911 - INFO - Tablas de base de datos verificadas/creadas
+2025-12-09 16:05:57,911 - INFO - Conexión a BD cerrada correctamente
+2025-12-09 16:05:57,912 - INFO - Programada sincronización a las 08:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 09:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 10:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 11:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 12:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 13:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 14:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 14:35
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 15:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 16:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 17:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 18:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 19:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 20:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 21:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 22:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 23:00
+2025-12-09 16:05:58,180 - INFO - Programada sincronización a las 00:00
+2025-12-09 16:05:58,607 - INFO - Archivo equipos.json no encontrado. Creando con configuración por defecto.
+2025-12-09 16:06:39,676 - INFO - Intentando conectar a la base de datos
+2025-12-09 16:06:39,690 - INFO - Conexión a BD exitosa
+2025-12-09 16:06:39,694 - INFO - Conexión a BD cerrada correctamente
+2025-12-09 16:19:35,566 - INFO - Aplicación cerrada por el usuario
