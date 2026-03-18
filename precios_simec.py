@@ -6,7 +6,7 @@ DB_CONFIG = {
     "host": "10.0.0.10",
     "user": "simecsoft",
     "password": "ela2006",
-    "database": "sisinvnovanexa2025",
+    "database": "sisinvrequilab2025",
     "charset": "latin1",
     "use_unicode": True,
 }

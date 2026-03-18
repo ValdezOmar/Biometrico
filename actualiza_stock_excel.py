@@ -6,7 +6,7 @@ DB_CONFIG = {
     "host": "10.0.0.10",
     "user": "simecsoft",
     "password": "ela2006",
-    "database": "sisinvnovanexa2025",
+    "database": "sisinvrequilab2025",
     "charset": "latin1",
     "use_unicode": True,
 }
@@ -36,34 +36,31 @@ df = df.applymap(limpiar_texto)
 conn = mysql.connector.connect(**DB_CONFIG)
 cursor = conn.cursor()
 
-# ==== INSERTAR O ACTUALIZAR SI YA EXISTE ====
+# ==== ACTUALIZAR SOLO PRESENTACION (DESCRIP1) ====
 contador = 0
+
+sql = """
+    UPDATE stock
+    SET DESCRIP1 = %s
+    WHERE CODIGO = %s
+"""
+
 for _, row in df.iterrows():
-    sql = """
-        INSERT INTO stock (CODIGO, DESCRIP, DESCRIP1, UNIDAD, CODIGO1, ORIGEN)
-        VALUES (%s, %s, %s, %s, %s, %s)
-        ON DUPLICATE KEY UPDATE
-            DESCRIP = VALUES(DESCRIP),
-            DESCRIP1 = VALUES(DESCRIP1),
-            UNIDAD = VALUES(UNIDAD),
-            CODIGO1 = VALUES(CODIGO1),
-            ORIGEN = VALUES(ORIGEN)
-    """
 
     valores = (
-        row["CODIGO"],
-        row["DESCRIPCION"],
         row["PRESENTACION"],
-        row["UNIDAD"],
-        row["CODIGO_ALTERNO"],
-        row["ORIGEN"],
+        row["CODIGO"]
     )
 
     cursor.execute(sql, valores)
-    contador += 1
 
+    # cuenta solo si realmente se actualizó
+    contador += cursor.rowcount
+
+# ==== GUARDAR CAMBIOS ====
 conn.commit()
-print(f"✅ Proceso finalizado. Registros insertados o actualizados: {contador}")
+
+print(f"✅ Proceso finalizado. Registros actualizados: {contador}")
 
 # ==== CIERRE DE CONEXIÓN ====
 cursor.close()
